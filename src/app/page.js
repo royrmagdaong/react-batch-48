@@ -3,6 +3,7 @@
 import HelloWorld from "./components/HelloWorld"
 import Cat from "./components/Cat"
 import MyComponent from "./components/MyComponent"
+import PokemonList from "./components/PokemonList";
 
 
 export default function Home() {
@@ -13,8 +14,9 @@ export default function Home() {
       {/* <Cat name="Meow" age="2"></Cat>
       <Cat name="Meow 2" age="5"></Cat>
       <Cat name="Meow 3" age="3"></Cat> */}
+      {/* <MyComponent/> */}
 
-      <MyComponent/>
+      <PokemonList></PokemonList>
     </main>
   )
 }
